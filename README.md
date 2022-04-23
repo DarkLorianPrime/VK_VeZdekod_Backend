@@ -35,7 +35,7 @@ Method:
 -----
 Url:
 
-{ http://vk.darklorian.ru/photos/best }
+{ http://vk.darklorian.ru/best }
 
 Description:
 

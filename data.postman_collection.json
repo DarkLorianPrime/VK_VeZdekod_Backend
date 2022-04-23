@@ -1,0 +1,193 @@
+{
+	"info": {
+		"_postman_id": "20da4cca-afad-4f71-a72e-a2ab81eeac33",
+		"name": "data",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Download photos to local album",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "owner",
+							"value": "197700721",
+							"type": "text"
+						},
+						{
+							"key": "album_id",
+							"value": "274262016",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "vk.darklorian.ru/getphotos/",
+					"host": [
+						"vk",
+						"darklorian",
+						"ru"
+					],
+					"path": [
+						"getphotos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get on local album",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "vk.darklorian.ru/getphotos/",
+					"host": [
+						"vk",
+						"darklorian",
+						"ru"
+					],
+					"path": [
+						"getphotos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Select best",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "vk.darklorian.ru/best",
+					"host": [
+						"vk",
+						"darklorian",
+						"ru"
+					],
+					"path": [
+						"best"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create best",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "12",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "vk.darklorian.ru/best/",
+					"host": [
+						"vk",
+						"darklorian",
+						"ru"
+					],
+					"path": [
+						"best",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Like",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "12",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "vk.darklorian.ru/like/",
+					"host": [
+						"vk",
+						"darklorian",
+						"ru"
+					],
+					"path": [
+						"like",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dislike",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "12",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "vk.darklorian.ru/dislike/",
+					"host": [
+						"vk",
+						"darklorian",
+						"ru"
+					],
+					"path": [
+						"dislike",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "feed",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "vk.darklorian.ru/feed/",
+					"host": [
+						"vk",
+						"darklorian",
+						"ru"
+					],
+					"path": [
+						"feed",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

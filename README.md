@@ -4,6 +4,7 @@ Required Python 3.8+
 
 Порядок действий: (Следующий гайд подразумевает что у вас установлен Python 3.8 и venv)
 1. Зайти в virtual environment
+
 ```python3.8 -m venv venv```
 
 ```source venv/bin/activate```

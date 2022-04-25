@@ -3,6 +3,9 @@
 Required Python 3.8+
 
 Порядок действий: (Следующий гайд подразумевает что у вас установлен Python 3.8 и venv)
+
+!! Для запуска на linux, без учета деплоя !!
+
 1. Зайти в virtual environment
 
 ```python -m venv venv```

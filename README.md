@@ -1,4 +1,4 @@
-# VK_VeZdekod_Backend
+# vk.darklorian.ru
 # Setup
 Required Python 3.8+
 

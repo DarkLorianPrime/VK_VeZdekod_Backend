@@ -16,7 +16,7 @@ Required Python 3.8+
 
 Все URLы будут вам доступны при условии наличия базы данных.
 # Urls
-```
+```shell
 
 { http://vk.darklorian.ru/getphotos/ }
 
@@ -33,7 +33,7 @@ Method:
 { POST }
 ```
 -----
-```
+```shell
 
 { http://vk.darklorian.ru/getphotos/ }
 
@@ -50,7 +50,7 @@ Method:
 { GET }
 ```
 -----
-```
+```shell
 
 { http://vk.darklorian.ru/best }
 
@@ -67,7 +67,7 @@ Method:
 { POST }
 ```
 -----
-```
+```shell
 
 { http://vk.darklorian.ru/best }
 
@@ -84,7 +84,7 @@ Method:
 { GET }
 ```
 -----
-```
+```shell
 
 { http://vk.darklorian.ru/dislike }
 
@@ -101,7 +101,7 @@ Method:
 { POST }
 ```
 -----
-```
+```shell
 
 { http://vk.darklorian.ru/like }
 
@@ -118,7 +118,7 @@ Method:
 { POST }
 ```
 -----
-```
+```shell
 
 { http://vk.darklorian.ru/feed }
 

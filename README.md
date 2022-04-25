@@ -3,7 +3,7 @@
 Required Python 3.8+
 Порядок действий:
 1. Инициализировать виртуальную среду и установить все необоходимые библиотеки
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 # Urls
 Url:
 

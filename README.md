@@ -16,124 +16,49 @@ Required Python 3.8+
 
 Все URLы будут вам доступны при условии наличия базы данных.
 # Urls
-```shell
+POST: http://vk.darklorian.ru/getphotos/
 
-{ http://vk.darklorian.ru/getphotos/ }
+Need params: { album_id, owner_id }
 
-Description:
-
-{ Загружает фотографии из альбома при указании его album_id и owner_id }
-
-Params:
-
-{ album_id, owner_id }
-
-Method:
-
-{ POST }
-```
+Загружает фотографии из альбома при указании его album_id и owner_id
 -----
-```shell
+GET: http://vk.darklorian.ru/getphotos/
 
-{ http://vk.darklorian.ru/getphotos/ }
+Need params: { }
 
-Description:
-
-{ Отображает все фото и данные о них }
-
-Params:
-
-{ }
-
-Method:
-
-{ GET }
-```
+Отображает все фото и данные о них
 -----
-```shell
+POST: http://vk.darklorian.ru/best 
 
-{ http://vk.darklorian.ru/best }
+Need params: { id }
 
-Description:
-
-{ Выбирает новое фото, которое будет приоритетно показываться }
-
-Params:
-
-{ id - id записи. }
-
-Method:
-
-{ POST }
-```
+Выбирает новое фото, которое будет приоритетно показываться
 -----
-```shell
+GET: http://vk.darklorian.ru/best
 
-{ http://vk.darklorian.ru/best }
+Need params: { }
 
-Description:
-
-{ Показывает какое фото выбрано лучшим }
-
-Params:
-
-{ }
-
-Method:
-
-{ GET }
-```
+Показывает какое фото выбрано лучшим
 -----
-```shell
+POST: http://vk.darklorian.ru/dislike
 
-{ http://vk.darklorian.ru/dislike }
 
-Description:
+Need params: { id }
 
-{ Убирает 1 лайк }
 
-Params:
-
-{ id - id записи. }
-
-Method:
-
-{ POST }
-```
+Убирает 1 лайк 
 -----
-```shell
+POST: http://vk.darklorian.ru/like
 
-{ http://vk.darklorian.ru/like }
+Need params: { id }
 
-Description:
-
-{ Ставит 1 лайк }
-
-Params:
-
-{ id - id записи. }
-
-Method:
-
-{ POST }
-```
+Ставит выбранной записи 1 лайк
 -----
-```shell
+GET: http://vk.darklorian.ru/feed
 
-{ http://vk.darklorian.ru/feed }
+Need params: { }
 
-Description:
-
-{ Показывает 1 запись }
-
-Params:
-
-{ }
-
-Method:
-
-{ GET }
-```
+Показывает 1 запись при 1 обращении
 -----
 
 #### От автора
